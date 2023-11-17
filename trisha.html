@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Second Grading FA1 - CS3</title>
+        <meta charset="UTF-8">
+        <meta name="author" content="lynn">
+        <meta name="keywords" content="HTML, CSS, JavaScript">
+        <meta name="revised" content="11/17/2023">
+    </head>
+
+    <body>
+        <a href="#div1" class="first"> Helaur! </a>
+        <a href="#div2" class="second"> Haiii </a><br>
+        <div id="div1"> okay </div>
+        <div id="div2"> madlang pepolz </div>
+
+        <style>
+
+            .first {
+                text-decoration: none;
+                padding: 40px;
+             
+            }
+            a.first:link {
+                text-decoration: none;
+                padding: 40px;
+                background-color: rgb(44, 10, 16);
+                color: red;
+             
+            }
+
+            a.first:visited {
+                background-color: rgb(20, 0, 4);
+                color: rgb(228, 102, 102);
+             
+            }
+
+            a.first:hover {
+                background-color:pink;
+                color: black;
+             
+            }
+
+            a.first:active {
+                background-color:blue;
+                color: beige;
+             
+            }
+
+            .second {
+                text-decoration: none;
+                padding: 40px;
+                margin-left: 20px;
+                margin: 40px;
+            }
+
+    
+            a.second:link {
+                background-color: yellow;
+                color: rgb(11, 79, 106); 
+            }
+
+           
+            a.second:visited {
+                background-color: darkmagenta;
+                color: peachpuff;  
+            }
+
+            a.second:hover {
+                background-color: lightcyan;
+                color: darkred;
+            }
+
+            a.second:active {
+                background-color: brown;
+                color: white;
+            }
+
+            #div1 {
+                color:black;
+                background-color: aquamarine;
+                border: 3px solid black;
+                text-align:left;
+                margin: 60px 0px 30px 0px;
+                padding: 30px;
+                width: 20px; 
+            }
+
+            #div1:target {
+                color: white;
+                background-color: black;
+                
+            }
+    
+            #div2 {
+                border: 2px solid rgb(136, 98, 98);
+                text-align:left;
+                padding: 30px;
+                width: 40px;
+                color: black;
+                background-color:rgb(235, 235, 147);  
+            }
+    
+            #div2:target {
+                border-width: 10px;
+                background-color: pink;
+                border: 10px dotted green;
+            }
+        </style>
+    </body>
+</html>
